@@ -741,6 +741,7 @@ require('lazy').setup({
         'tailwindcss-language-server',
         'prettier',
         'markdownlint',
+        'autopep8',
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
@@ -804,6 +805,7 @@ require('lazy').setup({
         json = { 'prettier' },
         jsonc = { 'prettier' },
         markdown = { 'deno_fmt' },
+        python = { 'autopep8' },
       },
     },
   },
